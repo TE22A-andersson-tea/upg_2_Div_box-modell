@@ -1,0 +1,82 @@
+body{
+    border-radius: 5px;
+}
+
+.Top_liten{
+    border:solid #D6001C;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+}
+
+img{
+    width: 100px;
+    height: 40px;
+    border: solid black;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.Top{
+    background-image: url(img/snow_winter_trees.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    border: solid #D6001C;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    font-family: "Mountain of Christmas";
+    border-radius: 5px;
+}
+
+.Main{
+    border: solid #D6001C;
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.Vänster{
+    border: solid #D6001C;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    margin-right: 10px;
+    line-height: 2.0;
+    border-radius: 5px;
+}
+
+.Text{
+    border: solid #D6001C;
+    padding: 4px;
+    border-radius: 5px;
+}
+.Höger{
+    border: solid #D6001C;
+    padding: 30px;
+    background-image: url(./img/christmasTree.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.Fot{
+    border: solid #D6001C;
+    padding: 4px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
